@@ -1,0 +1,7 @@
+inputdata = open("input.txt", "r")
+variables = []
+for line in inputdata:
+    variables.append(int(line))
+x=0
+for i in variables[:]:
+    x = x + i
