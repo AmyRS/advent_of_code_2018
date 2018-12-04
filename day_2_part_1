@@ -1,11 +1,10 @@
 import collections
 from collections import Counter
 
-inputdata = open("input_boxID.txt", "r")
 boxid = []
-for line in inputdata:
-    x = line.strip('\n')
-    boxid.append(x)
+with open("input_boxID.txt", "r") as file:
+    for line in file:
+        boxid.append(line)
     
 threes = 0
 twos = 0
