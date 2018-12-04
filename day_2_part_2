@@ -1,8 +1,9 @@
 inputdata = open("input_boxID.txt", "r")
 boxid = []
-for line in inputdata:
-    x = line.strip('\n')
-    boxid.append(x)
+
+with open("input_boxID.txt", "r") as file:
+    for line in file:
+        boxid.append(line)
     
 import jellyfish
 import difflib
