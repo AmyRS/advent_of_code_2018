@@ -1,12 +1,13 @@
+# list to hold all frequencies used
 frequency = []
 x = 0
 
-inputdata = open("input.txt", "r")
-
 # create and populate list of all variables used to calculate frequencies
 variables = []
-for line in inputdata:
-    variables.append(int(line))
+
+with open("input.txt", "r") as file:
+    for line in file:
+        variables.append(int(line))
 	
 done = "False"
 while done == "False":
