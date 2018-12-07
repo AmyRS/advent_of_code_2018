@@ -2,5 +2,5 @@
 December Fun
 https://adventofcode.com/2018
 
-written in python 3 in jupyter notebooks prior then pulled into .py files. /n
+written in python 3 in jupyter notebooks prior then pulled into .py files.\s\s
 pylint used on *some* for code clean up
