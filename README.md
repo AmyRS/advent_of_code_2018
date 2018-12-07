@@ -2,10 +2,10 @@
 December Fun
 https://adventofcode.com/2018
 
-written in python 3 in jupyter notebooks prior then pulled into .py files.  
+Written in python 3 in jupyter notebooks prior then pulled into .py files.  
 pylint used on *some* files
 
-My day three code creates an actual multipolygon shapefile as output,
+Day three code creates a multipolygon shapefile as output,
 visualization below.
 
 ![Day Three](Fabric_Vis.jpg)
