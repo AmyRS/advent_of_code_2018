@@ -8,3 +8,5 @@ pylint used on *some* files
 My day three code creates an actual multipolygon shapefile as output,
 visualization below.
 
+![Day Three](Fabric_Vis.jpg)
+format: ![Alt Text](url)
