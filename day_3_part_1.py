@@ -11,8 +11,6 @@ with open("input_claims.txt", "r") as file:
 Claim = namedtuple('Claim', 'a b c d')
 CLAIMS = []
 
-# Pull data apart from input file for future calcs.
-
 for claimtx in CLAIMTXT:
     claimID = (re.findall(r'(?<=#)\d*', claimtx))
     A1 = (re.findall(r'(?<=@ )\d*', claimtx))
@@ -64,4 +62,3 @@ for ITEM_POLY in POLYS:
 
 FINALPOL = MultiPolygon(POLYMULTI)
 print(cascaded_union(FINALPOL))
- 
