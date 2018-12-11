@@ -12,7 +12,6 @@ NAPDATA.sort()
 
 ALLNAPS = []
 for NAPS in NAPDATA:
-    #year = re.findall(r'\d\d\d\d', NAPS)
     month = re.findall(r'\-(\d\d)\-', NAPS)
     day = re.findall(r'\-(\d\d)\s', NAPS)
     minute = re.findall(r'\:(\d\d)', NAPS)
